@@ -128,12 +128,6 @@ class ApplicationWindow(Gtk.Window):
             tex_buffer.insert(tex_buffer.get_end_iter(), "\end{tabular}")
 
 def main():
-    # with open(sys.argv[1]) as infile:
-    #     csvfile = csv.reader(infile)
-
-    #     for row in csvfile:
-    #         print(" & ".join(row) + "\\\\")
-
     win = ApplicationWindow()
     win.show_all()
     Gtk.main()
